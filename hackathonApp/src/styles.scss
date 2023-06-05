@@ -2,23 +2,31 @@
 
 html{
   font-size: 62.5%;
-  font-family: Roboto,;
+  font-family: Roboto,sans-serif;
 }
 // Colors
 $principal-color      : #C3DC00;
 $secondary-color      : #001038;
 $tertiary-color       : #001341;
 $quaternary-color     : #000205;
-$text-color           : #FFFFFF;
+$text-primary-color   : #FFFFFF;
+$text-secondary-color : #b1b1b1;
 $background-primary   : #212122;
 $background-secondary : #2C2C2C;
 
 // Font size
-$font-size-large  : 2.4rem;
-$font-size-medium : 2.0rem;
-$font-size-small  : 2.0rem;
+$font-size-large  : 3.0rem;
+$font-size-medium : 2.4rem;
+$font-size-small  : 1.8rem;
+
+// Font weight
+$font-weight-strong : 700;
+
+// Box Sizing
+$border-radius-normal : 10px;
+
 
 // Body Assets
 body{
-  color: $text-color;
+  color: $text-primary-color;
 }
