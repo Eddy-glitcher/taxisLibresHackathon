@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+
+html{
+  font-size: 62.5%;
+  font-family: Roboto,;
+}
+// Colors
+$principal-color      : #C3DC00;
+$secondary-color      : #001038;
+$tertiary-color       : #001341;
+$quaternary-color     : #000205;
+$text-color           : #FFFFFF;
+$background-primary   : #212122;
+$background-secondary : #2C2C2C;
+
+// Font size
+$font-size-large  : 2.4rem;
+$font-size-medium : 2.0rem;
+$font-size-small  : 2.0rem;
+
+// Body Assets
+body{
+  color: $text-color;
+}
