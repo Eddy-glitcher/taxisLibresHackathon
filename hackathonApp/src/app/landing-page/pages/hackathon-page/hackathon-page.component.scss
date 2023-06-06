@@ -1,0 +1,322 @@
+@import '../../../../styles.scss';
+
+h2{
+  margin: 0px;
+  font-size: $font-size-medium;
+  font-weight: $font-weight-strong;
+  color: $principal-color;
+}
+
+main{
+  text-align: center;
+}
+
+.maxwidth-content{
+  max-width: 1350px;
+  margin: 0px auto;
+  padding: 50px 10px;
+}
+
+// main-description-section
+
+.main--description-section{
+  background-color : $secondary-color;
+}
+
+.main-description-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+}
+
+.main-description-title{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: $border-radius-normal;
+  background-color: rgba($quaternary-color,0.3);
+}
+
+.main-description-text{
+  h1{
+    padding: 10px;
+    margin: 0px;
+    font-size: $font-size-large;
+    font-weight: $font-weight-strong;
+    color: $principal-color;
+  }
+
+  span{
+    font-size: $font-size-medium;
+  }
+}
+
+.main-description-image{
+
+  img{
+    width: 100%;
+    max-width: 500px;
+  }
+
+}
+
+.main-description-message{
+  p{
+    font-size: $font-size-small;
+    color: $text-secondary-color;
+    max-width: 500px;
+  }
+}
+
+// main-aboout-section
+
+.main-about-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.main-about-section{
+  background-color: $background-primary;
+}
+
+.main-about-description-item{
+
+  background-color: $background-secondary;
+  padding: 15px 10px;
+  border-radius: $border-radius-normal;
+  max-width: 450px;
+  margin: 0px auto;
+
+  p{
+    text-align: left;
+    font-size: 16px;
+  }
+}
+
+.main-about-description-image{
+  padding: 10px;
+  img{
+    width: 100%;
+  }
+}
+
+// main-aboout-section
+
+// main-awards-section
+
+.main-awards-section{
+  background-color: $background-secondary;
+}
+
+.main-objective-description{
+  text-align: left;
+  font-size: $font-size-small;
+
+
+  h2{
+    text-align: center;
+  }
+
+  li{
+    margin: 10px 0px;
+  }
+}
+
+.main-objective-description-items{
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.main-awards-title{
+  padding: 20px 0px;
+}
+
+.main-awards-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-award-item-image{
+  h3{
+    font-size: $font-size-small;
+  }
+
+  img{
+    border-radius: $border-radius-normal;
+  }
+}
+
+.main-award-item{
+  background-color: $background-primary;
+  padding: 10px;
+  border-radius: $border-radius-normal;
+}
+
+.main-award-item-awards{
+  font-size: $font-size-small;
+
+  ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+  }
+
+  li{
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: $border-radius-normal;
+    background-color: $tertiary-color;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  i{
+    font-size: $font-size-medium;
+    color: $principal-color;
+  }
+
+}
+// main-awards-section
+
+
+// main-inscription-section
+.main-inscription-section{
+  background-color: $background-primary;
+}
+
+.main-inscription-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-inscription-text{
+  margin: 20px auto;
+  max-width: 600px;
+
+  p{
+    text-align: center;
+    font-size: $font-size-small;
+  }
+}
+
+
+.main-inscription-form{
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 10px;
+  font-size: $font-size-small;
+  border-radius: 20px;
+  background-color: $tertiary-color;
+  box-sizing: border-box;
+}
+
+.main-inscription-form-item{
+  margin: 15px auto;
+  text-align: left;
+  width: 100%;
+
+
+  input{
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 100%;
+    color: $tertiary-color;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: $border-radius-normal;
+  }
+
+  input:focus{
+    border: 1px solid $quaternary-color;
+  }
+}
+
+.main-inscription-form-button{
+  margin-top: 20px;
+
+  button{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: $principal-color;
+  }
+
+  button:hover{
+    color: $text-primary-color;
+    cursor: pointer;
+    transition: all 300ms;
+  }
+}
+// main-inscription-section
+
+
+// main-description-section responsive design
+@media (min-width: 600px) {
+  .main-description-title{
+    h1{
+      font-size: 3.0rem;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+
+  .maxwidth-content{
+    padding: 50px 20px;
+  }
+
+  .main-description-content{
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .main-description-title{
+    h1{
+      font-size: 5.0rem;
+    }
+  }
+}
+// main-description-section responsive design
+
+// main-about-section responsive design
+@media (min-width: 800px) {
+
+  .main-about-content{
+    flex-direction: row;
+  }
+
+  .main-about-description-item{
+    padding: 40px 20px;
+    width: 450px;
+  }
+
+  p{
+    font-size: $font-size-small;
+  }
+}
+// main-about-section responsive design
+
+// main-awards-section responsive design
+@media (min-width: 800px) {
+  .main-awards-items{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+// main-awards-section responsive design
