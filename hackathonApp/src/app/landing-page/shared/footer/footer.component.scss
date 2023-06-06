@@ -1,0 +1,56 @@
+@import '../../../../styles.scss';
+
+h3{
+  font-size: 20px;
+  font-weight: $font-weight-strong;
+}
+
+.footer-content{
+  padding: 20px 0px 0px 0px;
+  background-color: $background-primary;
+  text-align: center;
+}
+
+.contact-info{
+  max-width: 500px;
+  margin: 0px auto;
+
+  p{
+    text-align: left;
+    font-size: $font-size-small;
+  }
+}
+
+.social-media{
+  margin-top: 15px;
+}
+
+.social-media-items{
+  background-color: $tertiary-color;
+  padding: 20px;
+
+  ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  a{
+    color: $text-primary-color;
+    font-size: $font-size-medium;
+  }
+
+  a:hover{
+    color: $text-secondary-color;
+  }
+
+}
+
+.footer-copy{
+  padding: 10px;
+  background-color: $background-secondary;
+}
