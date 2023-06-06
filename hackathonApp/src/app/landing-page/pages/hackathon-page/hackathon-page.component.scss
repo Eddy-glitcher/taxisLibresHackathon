@@ -244,6 +244,10 @@ main{
   input:focus{
     border: 1px solid $quaternary-color;
   }
+
+  small{
+    color: #ba0000;
+  }
 }
 
 .main-inscription-form-button{
