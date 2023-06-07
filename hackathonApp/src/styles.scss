@@ -26,6 +26,14 @@ $font-weight-strong : 700;
 // Box Sizing
 $border-radius-normal : 10px;
 
+// Mixins
+
+@mixin displayFlexMixin($display,$align,$direction,$position){
+  display: $display;
+  align-items: $align;
+  flex-direction: $direction;
+  justify-content: $position;
+}
 
 // Body Assets
 body{

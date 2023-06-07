@@ -17,17 +17,12 @@ main{
 }
 
 .main-description-content{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include displayFlexMixin(flex,normal,column,center);
   gap:20px;
 }
 
 .main-description-title{
-  display: flex;
-  align-items: center;
-  flex-direction:column;
-  justify-content: center;
+  @include displayFlexMixin(flex,center,column,center);
   padding: 20px;
   border-radius: $border-radius-normal;
   background-color: rgba($quaternary-color,0.3);
@@ -67,9 +62,7 @@ main{
 // main-aboout-section
 
 .main-about-content{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  @include displayFlexMixin(flex,normal,column,space-around);
   gap: 20px;
 }
 
@@ -130,10 +123,7 @@ main{
 }
 
 .main-awards-items{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  @include displayFlexMixin(flex,center,column,center);
   gap: 20px;
 }
 
@@ -164,13 +154,11 @@ main{
   }
 
   li{
+    @include displayFlexMixin(flex,center,row,start);
     margin: 10px 0px;
     padding: 10px;
     border-radius: $border-radius-normal;
     background-color: $tertiary-color;
-
-    display: flex;
-    align-items: center;
     gap: 10px;
   }
 
@@ -213,8 +201,7 @@ main{
   }
 
   .main-description-content{
-    flex-direction: row;
-    justify-content: space-around;
+    @include displayFlexMixin(flex,normal,row,space-around);
   }
 
   .main-description-title{
