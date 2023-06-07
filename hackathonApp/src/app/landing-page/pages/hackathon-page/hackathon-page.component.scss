@@ -160,7 +160,7 @@ main{
   }
 
   li{
-    @include displayFlexMixin(flex,center,row,start);
+    @include displayFlexMixin(flex,center,row,flex-start);
     margin: 10px 0px;
     padding: 10px;
     border-radius: $border-radius-normal;
