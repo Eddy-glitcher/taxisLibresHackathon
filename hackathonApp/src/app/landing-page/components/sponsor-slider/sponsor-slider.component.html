@@ -1,0 +1,20 @@
+<div class="main-sponsors-items">
+  <div class="main-sponsors-title"><h2>NUESTROS PATROCINADORES</h2></div>
+
+  <div class="main-sponsors-items-container">
+    <owl-carousel-o [options]="customOptions" #owlCar>
+
+      <ng-container *ngFor="let sponsor of sponsorList; index as indexOfelement;">
+        <ng-template carouselSlide>
+            <div class="main-sponsot-item">
+              <img src="{{sponsor.icon}}" alt="{{sponsor.alt}}">
+            </div>
+        </ng-template>
+      </ng-container>
+
+    </owl-carousel-o>
+  </div>
+
+</div>
+
+

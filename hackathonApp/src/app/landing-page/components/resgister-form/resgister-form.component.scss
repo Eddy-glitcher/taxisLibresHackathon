@@ -1,0 +1,74 @@
+@import '../../../../styles.scss';
+
+// main-inscription-section
+.main-inscription-items{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main-inscription-text{
+  margin: 20px auto;
+  max-width: 600px;
+
+  p{
+    text-align: center;
+  }
+}
+
+.main-inscription-form{
+  width: 100%;
+  max-width: 500px;
+  padding: 20px 10px;
+  font-size: $font-size-small;
+  border-radius: 20px;
+  background-color: $tertiary-color;
+  box-sizing: border-box;
+}
+
+.main-inscription-form-item{
+  margin: 15px auto;
+  text-align: left;
+  width: 100%;
+
+
+  input{
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid transparent;
+    width: 100%;
+    color: $tertiary-color;
+    box-sizing: border-box;
+    outline: none;
+    border-radius: $border-radius-normal;
+  }
+
+  input:focus{
+    border: 1px solid $quaternary-color;
+  }
+
+  small{
+    color: $text-error-color;
+  }
+}
+
+.main-inscription-form-button{
+  margin-top: 20px;
+
+  button{
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: $principal-color;
+  }
+
+  button:hover{
+    color: $text-primary-color;
+    cursor: pointer;
+    transition: all 300ms;
+  }
+}
+// main-inscription-section
