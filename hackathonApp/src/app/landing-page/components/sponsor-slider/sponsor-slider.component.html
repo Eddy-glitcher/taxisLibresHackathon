@@ -7,7 +7,7 @@
       <ng-container *ngFor="let sponsor of sponsorList; index as indexOfelement;">
         <ng-template carouselSlide>
             <div class="main-sponsot-item">
-              <img src="{{sponsor.icon}}" width="100" height="100" alt="{{sponsor.alt}}">
+              <img ngSrc="{{sponsor.icon}}" width="100" height="100" alt="{{sponsor.alt}}">
             </div>
         </ng-template>
       </ng-container>
