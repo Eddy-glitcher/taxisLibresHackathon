@@ -104,7 +104,7 @@ Acompañdo de la configuración que se implementó en el fichero anglar.json.
         "output": "/"
     }`
 
-# Lessons and knowledge acquired
+# Lecciones y conocimiento
 Con este proyecto aprendí y fortalecí muchas habilidades, tambien interioricé algunos otros conceptos.
 
 - Es importante tener un sistemas modular para separa las funcionalidades importantes de la aplicación y poder reutilizarlas en cualquier lugar de la misma.
