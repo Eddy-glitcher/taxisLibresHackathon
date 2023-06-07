@@ -61,7 +61,11 @@ main{
 
 // main-aboout-section
 
-.main-about-content{
+.main-about-title{
+  margin-bottom: 20px
+}
+
+.main-about-items{
   @include displayFlexMixin(flex,normal,column,space-around);
   gap: 20px;
 }
@@ -104,12 +108,14 @@ main{
   text-align: left;
   font-size: $font-size-small;
 
-  h2{
-    text-align: center;
-  }
-
   li{
     margin: 10px 0px;
+  }
+}
+
+.main-objective-title{
+  h2{
+    text-align: center;
   }
 }
 
@@ -214,8 +220,7 @@ main{
 
 // main-about-section responsive design
 @media (min-width: 800px) {
-
-  .main-about-content{
+  .main-about-items{
     flex-direction: row;
   }
 
