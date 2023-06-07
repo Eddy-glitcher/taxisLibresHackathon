@@ -46,6 +46,7 @@ main{
 
   img{
     width: 100%;
+    height: auto;
     max-width: 500px;
   }
 
@@ -93,6 +94,7 @@ main{
 
   img{
     width: 100%;
+    height: auto;
   }
 }
 
@@ -139,6 +141,8 @@ main{
   }
 
   img{
+    width: 100%;
+    height: auto;
     border-radius: $border-radius-normal;
   }
 }

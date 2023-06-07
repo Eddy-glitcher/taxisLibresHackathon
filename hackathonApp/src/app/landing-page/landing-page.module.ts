@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
 
 import { LandingPageRoutingModule } from './landing-page-routing.module';
 import { HeaderComponent } from './shared/header/header.component';
@@ -22,7 +22,8 @@ import { CarouselModule } from 'ngx-owl-carousel-o';
     CommonModule,
     LandingPageRoutingModule,
     ReactiveFormsModule,
-    CarouselModule
+    CarouselModule,
+    NgOptimizedImage
   ],
   exports:[
     HackathonPageComponent
