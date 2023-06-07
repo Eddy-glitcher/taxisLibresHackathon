@@ -194,7 +194,15 @@ main{
 .main-inscription-section{
   background-color: $background-primary;
 }
-// inscription-section
+// main-inscription-section
+
+// main-sponsors-section
+.main-sponsors-section{
+  background-color: $background-secondary;
+}
+// main-sponsors-section
+
+
 
 // main-description-section responsive design
 @media (min-width: 600px) {
