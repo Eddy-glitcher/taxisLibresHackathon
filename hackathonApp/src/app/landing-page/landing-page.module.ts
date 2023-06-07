@@ -7,19 +7,22 @@ import { HackathonPageComponent } from './pages/hackathon-page/hackathon-page.co
 import { FooterComponent } from './shared/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ResgisterFormComponent } from './components/resgister-form/resgister-form.component';
-
+import { SponsorSliderComponent } from './components/sponsor-slider/sponsor-slider.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     HackathonPageComponent,
     FooterComponent,
-    ResgisterFormComponent
+    ResgisterFormComponent,
+    SponsorSliderComponent
   ],
   imports: [
     CommonModule,
     LandingPageRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CarouselModule
   ],
   exports:[
     HackathonPageComponent
